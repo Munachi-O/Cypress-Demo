@@ -2,7 +2,7 @@ import { loginPage
  } from "./pages/loginPage";
 
 describe('testing the login functionality spec', () => {
-  it('specify that the quales library app loads successfully', () => {
+  it('verify that the quales library app loads successfully', () => {
     loginPage.openQualesApp();
     loginPage.confirmTheLoginInformationDisplays()
   });
